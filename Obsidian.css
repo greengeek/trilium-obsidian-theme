@@ -1,0 +1,164 @@
+:root {
+    --theme-style: dark;
+
+    --main-font-family: Helvetica;
+    --main-font-size: normal;
+
+    --tree-font-family: Helvetica;
+    --tree-font-size: normal;
+
+    --detail-font-family: Helvetica;
+    --detail-font-size: normal;
+
+    --monospace-font-family: 'Courier New';
+    --monospace-font-size: normal;
+
+    --main-background-color: #1E1E1E;
+    --main-text-color: #ccc;
+    --main-border-color: #aaa;
+
+    --accented-background-color: #555;
+    --more-accented-background-color: #777;
+
+    --button-background-color: transparent;
+    --button-border-color: #333;
+    --button-text-color: currentColor;
+    --button-border-radius: 0px;
+    --button-disabled-background-color: transparent;
+    --button-disabled-text-color: #999;
+
+    --primary-button-background-color: #888;
+    --primary-button-text-color: #ccc;
+    --primary-button-border-color: #999;
+
+    --muted-text-color: #bbb;
+
+    --input-text-color: #ccc;
+    --input-background-color: #333;
+
+    --hover-item-text-color: #ccc;
+    --hover-item-background-color: transparent;
+    --hover-item-border-color: #333;
+
+    --active-item-text-color: #ccc;
+    --active-item-background-color: transparent;
+    --active-item-border-color: transparent;
+
+    --menu-text-color: #ccc;
+    --menu-background-color: #222;
+
+    --modal-background-color: #333;
+    --modal-backdrop-color: #444;
+
+    --left-pane-background-color: #252526;
+    --left-pane-text-color: #AAAAAA;
+
+    --launcher-pane-background-color: #333333;
+    --launcher-pane-text-color: #6F7676;
+
+    --active-tab-background-color: transparent;
+    --active-tab-hover-background-color: transparent;
+    --active-tab-text-color: #a45ee5;
+
+    --inactive-tab-background-color: #2D2D2D;
+    --inactive-tab-hover-background-color: #525252;
+    --inactive-tab-text-color: #bbb;
+
+    --scrollbar-border-color: #333;
+    --tooltip-background-color: #333;
+    --link-color: #a45ee5;
+
+    --mermaid-theme: dark;
+    --ck-color-code-block-label-background: #333;
+}
+
+body ::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+body .CodeMirror {
+    filter: invert(90%) hue-rotate(180deg);
+}
+
+.excalidraw.theme--dark {
+    --theme-filter: invert(80%) hue-rotate(180deg) !important;
+}
+
+.gutter {
+    width: 2px !important;
+    background: #252526 !important;
+}
+
+span.fancytree-custom-icon {
+  color: #a45ee5 !important;
+  background: none;
+}
+
+.tree-actions {
+  background-color: #252526 !important;
+}
+
+span.fancytree-active .fancytree-title {
+  font-weight: normal !important; 
+}
+
+span.fancytree-active {
+  border: 0px !important;
+  background-color: #333333 !important;
+}
+
+.tab-row-filler {
+  background-color: #1E1E1E !important;
+}
+
+.tab-row-widget .note-tab .note-tab-wrapper {
+  border-radius: 0px !important;
+}
+
+.tab-row-widget .note-tab[active] .note-tab-wrapper {
+  font-weight: normal !important;
+  font-style: italic !important;
+  border-radius: 0px !important;
+}
+
+.note-book-card {
+  border-radius: 0px !important;
+  background-color: #333 !important;
+}
+
+button.tree-floating-button:hover {
+  border: 0px !important;
+  background-color: #333333 !important;
+}
+
+.ck-content pre {
+  border: 1px solid #37373D !important;
+  border-radius: 0px !important;
+  background-color: #252526 !important;
+}
+
+div#launcher-pane .global-menu-button {
+  filter: invert(0.5);
+}
+
+div#launcher-pane .global-menu-button:hover {
+  filter: invert(0);
+}
+
+.note-new-tab {
+  background-color: #252526 !important;
+}
+
+span.fancytree-node:hover {
+  border: 0px !important;
+  background-color: #525252 !important;
+}
+
+#right-pane {
+    background-color: #252526 !important;
+}
+
+.dropdown-menu.show {
+    background-color: #333333 !important;
+}
+
