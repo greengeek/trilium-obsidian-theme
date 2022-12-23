@@ -15,3 +15,9 @@
 If you do not see Obsidian as an option, try refreshing the page in your browser. 
 
 ## Preview
+<img src="screenshot1.png" />
+<img src="screenshot2.png" />
+<img src="screenshot3.png" />
+<img src="screenshot4.png" />
+
+*This theme is a work in progress.  Please feel free to update, add to, modify, or fix.  Commits welcome.
