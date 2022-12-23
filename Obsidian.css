@@ -10,7 +10,7 @@
     --detail-font-family: Helvetica;
     --detail-font-size: normal;
 
-    --monospace-font-family: 'Courier New';
+    --monospace-font-family: 'Lucida Console', 'Courier New', Courier;
     --monospace-font-size: normal;
 
     --main-background-color: #1E1E1E;
@@ -58,7 +58,7 @@
 
     --active-tab-background-color: transparent;
     --active-tab-hover-background-color: transparent;
-    --active-tab-text-color: #a45ee5;
+    --active-tab-text-color: #863BE2;
 
     --inactive-tab-background-color: #2D2D2D;
     --inactive-tab-hover-background-color: #525252;
@@ -90,7 +90,7 @@ body .CodeMirror {
 }
 
 span.fancytree-custom-icon {
-  color: #a45ee5 !important;
+  color: #6F31BC !important;
   background: none;
 }
 
