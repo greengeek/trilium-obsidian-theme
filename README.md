@@ -1,8 +1,8 @@
 # trilium-obsidian-theme
 [Trilium Notes](https://github.com/zadam/trilium) custom theme.
-Dark theme inspired by MS Visual Studio Code's default dark theme (dark+) with additional minor purple highlights.
-Uses updated fonts for easy web viewing. 
-Clean color scheme.
+- Dark theme inspired by MS Visual Studio Code's default dark theme (dark+) with additional minor purple highlights.
+- Uses updated fonts for easy web viewing. 
+- Easy to view and clean color scheme.
 
 ## Instructions
 - Create a new note in Trilium notes.
