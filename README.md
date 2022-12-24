@@ -20,6 +20,6 @@ If you do not see Obsidian as an option, try refreshing the page in your browser
 <img src="screenshot3.png" />
 <img src="screenshot4.png" />
 
-Code highlighting in second image uses Realtime syntax highlighter widget for Trilium by Antonio Tejada, along with the Material Darker CSS by Nate Peterson for highlight.js 
+Code highlighting in second image uses Trilium-SyntaxHighlightWidget by Antonio Tejada, along with the Material Darker CSS by Nate Peterson for highlight.js 
 
 *This theme is a work in progress.  Please feel free to update, add to, modify, or fix.  Commits welcome.
