@@ -2,7 +2,7 @@
 [Trilium Notes](https://github.com/zadam/trilium) custom theme.
 - Dark theme inspired by MS Visual Studio Code's default dark theme (dark+) with additional minor purple highlights.
 - Updated fonts to websafe for easy web viewing. 
-- Easy to view and modern color scheme.
+- Easy to view and modern template.
 
 ## Instructions
 - Create a new note in Trilium notes.
@@ -19,5 +19,7 @@ If you do not see Obsidian as an option, try refreshing the page in your browser
 <img src="screenshot5.png" />
 <img src="screenshot3.png" />
 <img src="screenshot4.png" />
+
+Code highlighting in second image uses Realtime syntax highlighter widget for Trilium by Antonio Tejada, along with the Material Darker CSS by Nate Peterson for highlight.js 
 
 *This theme is a work in progress.  Please feel free to update, add to, modify, or fix.  Commits welcome.
