@@ -165,3 +165,26 @@ span.fancytree-node:hover {
 .btn-primary.focus, .btn-primary:focus {
     box-shadow: none !important;
 }
+
+.ribbon-tab-title {
+    color: #6f7676 !important;
+    border-bottom: 1px solid #6f7676 !important;
+}
+
+.ribbon-tab-spacer {
+    border-bottom: 1px solid #6f7676 !important;
+}
+
+.ribbon-button-container .icon-action {
+    color: #6f7676 !important;
+}
+
+.ribbon-button-container {
+    border-bottom: 1px solid #6f7676 !important;
+}
+
+.title-row {
+    height: 70px !important;
+    min-height: 70px !important;
+    padding-top: 20px !important;
+}
