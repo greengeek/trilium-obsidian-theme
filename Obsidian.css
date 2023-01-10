@@ -23,11 +23,11 @@
     --button-background-color: transparent;
     --button-border-color: #333;
     --button-text-color: currentColor;
-    --button-border-radius: 0px;
+    --button-border-radius: 3px;
     --button-disabled-background-color: transparent;
     --button-disabled-text-color: #999;
 
-    --primary-button-background-color: #6F31BC;
+    --primary-button-background-color: #6F7676;
     --primary-button-text-color: #ccc;
     --primary-button-border-color: #6c6c6c;
 
@@ -50,15 +50,15 @@
     --modal-background-color: #333;
     --modal-backdrop-color: #444;
 
-    --left-pane-background-color: #252526;
+    --left-pane-background-color: #252525;
     --left-pane-text-color: #AAAAAA;
 
-    --launcher-pane-background-color: #333333;
+    --launcher-pane-background-color: #252525;
     --launcher-pane-text-color: #6F7676;
 
     --active-tab-background-color: transparent;
     --active-tab-hover-background-color: transparent;
-    --active-tab-text-color: #863BE2;
+    --active-tab-text-color: #8b6cef;
 
     --inactive-tab-background-color: #2D2D2D;
     --inactive-tab-hover-background-color: #525252;
@@ -66,7 +66,7 @@
 
     --scrollbar-border-color: #333;
     --tooltip-background-color: #333;
-    --link-color: #a45ee5;
+    --link-color: #8b6cef;
 
     --mermaid-theme: dark;
     --ck-color-code-block-label-background: #333;
@@ -86,16 +86,16 @@ body .CodeMirror {
 
 .gutter {
     width: 2px !important;
-    background: #252526 !important;
+    background: #2c2c2c !important;
 }
 
 span.fancytree-custom-icon {
-  color: #6F31BC !important;
+  color: #8b6cef !important;
   background: none;
 }
 
 .tree-actions {
-  background-color: #252526 !important;
+  background-color: #252525 !important;
 }
 
 span.fancytree-active .fancytree-title {
@@ -108,7 +108,8 @@ span.fancytree-active {
 }
 
 .tab-row-filler {
-  background-color: #1E1E1E !important;
+  background-color: #333 !important;
+  height: 90% !important;
 }
 
 .tab-row-widget .note-tab .note-tab-wrapper {
@@ -127,14 +128,18 @@ span.fancytree-active {
 }
 
 button.tree-floating-button:hover {
-  border: 0px !important;
+  border: 0px transparent !important;
   background-color: #333333 !important;
+}
+
+button.tree-floating-button {
+    border: 0px transparent !important;
 }
 
 .ck-content pre {
   border: 1px solid #37373D !important;
   border-radius: 0px !important;
-  background-color: #252526 !important;
+  background-color: #252525 !important;
 }
 
 div#launcher-pane .global-menu-button {
@@ -145,8 +150,18 @@ div#launcher-pane .global-menu-button:hover {
   filter: invert(0);
 }
 
+#launcher-pane {
+    border-right: 1px solid;
+    border-color: #2c2c2c;
+}
+
 .note-new-tab {
-  background-color: #252526 !important;
+  background-color: #252525 !important;
+}
+
+.fancytree-node {
+    height: 28px !important;
+    border: 0px solid transparent !important;
 }
 
 span.fancytree-node:hover {
@@ -155,7 +170,7 @@ span.fancytree-node:hover {
 }
 
 #right-pane {
-    background-color: #252526 !important;
+    background-color: #252525 !important;
 }
 
 .dropdown-menu.show {
@@ -187,4 +202,8 @@ span.fancytree-node:hover {
     height: 70px !important;
     min-height: 70px !important;
     padding-top: 20px !important;
+}
+
+#right-pane .card-header {
+    padding: 8px !important;
 }
