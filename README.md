@@ -16,7 +16,7 @@ If you do not see Obsidian as an option, try refreshing the page in your browser
 
 ## Preview
 <img src="screenshot1.png" />
-<img src="screenshot5.png" />
+<img src="screenshot2.png" />
 <img src="screenshot3.png" />
 <img src="screenshot4.png" />
 
