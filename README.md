@@ -1,6 +1,6 @@
 # Trilium Obsidian Theme
 [Trilium Notes](https://github.com/zadam/trilium) Server custom theme.
-- Dark theme based on MS Visual Studio Code's default dark theme (dark+) with inspirations taken from Obsidian md dark theme.
+- Dark theme based on MS Visual Studio Code's default dark theme (dark+) with inspirations taken from Obsidian MD dark theme.
 - Updated fonts to websafe for easy web viewing. 
 - Easy to view and modern template.
 
