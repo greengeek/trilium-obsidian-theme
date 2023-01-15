@@ -207,3 +207,7 @@ span.fancytree-node:hover {
 #right-pane .card-header {
     padding: 8px !important;
 }
+
+.ck-content blockquote {
+    border-left: 5px solid #8b6cef;
+}
