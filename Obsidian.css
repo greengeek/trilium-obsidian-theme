@@ -211,3 +211,7 @@ span.fancytree-node:hover {
 .ck-content blockquote {
     border-left: 5px solid #8b6cef;
 }
+
+.ck.ck-list__item .ck-button:hover:not(.ck-disabled) {
+    background: #8b6cef;
+}
